@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>QnA Chatbot</title>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9KMFZMJ59F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-9KMFZMJ59F');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/data/favicon.ico">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">
+              Image Authentication based on Histogram Shifting Method using Arnold’s Cat Map
+          </h1>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://sites.google.com/view/niladrighosh/home">Niladri Ghosh</a><sup>1</sup>,
+              <a href="https://www.linkedin.com/in/arnab-ghosh-53871a34b  ">Arnab Bera</a><sup>2</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Ramakrishna Mission Vivekananda Educational and Research Institute (RKMVERI)</span> &nbsp;&nbsp; 
+            <span class="author-block"><sup>2</sup>Chennai Mathematical Institute (CMI)</span> &nbsp;&nbsp; 
+          </div>
+        
+          <!-- <div>
+            <span><strong>∗</strong> <em>denotes equal contribution</em></span><br>
+          </div> -->
+
+          <!-- PDF Link -->          
+          <div class="column has-text-centered">
+            <div class="publication-links">
+                <span class="link-block">
+                  <a href="static\data\Project Report .pdf"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+
+                <!-- Presentation Link. -->
+              <span class="link-block">
+                <a href="static/data/Presentation.pptx"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-powerpoint"></i>
+                  </span>
+                  <span>Presentation</span>
+                </a>
+              </span>
+
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/niladrighosh03/Image-Authentication-based-on-Histogram-Shifting-Method-using-Arnold-s-cat-map"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://github.com/niladrighosh03/Image-Authentication-based-on-Histogram-Shifting-Method-using-Arnold-s-cat-map/tree/main/Cover%20Images"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Sample Dataset</span>
+                </a>
+              </span>
+
+             
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+
+     <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-sixths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+              Digital watermarking is a crucial technique for embedding and extracting hidden information
+              in digital media, including medical images. Image authentication plays a critical role in
+              ensuring the integrity and authenticity of digital medical images, which are essential for
+              accurate diagnosis, treatment planning, and research. The project focuses on the development
+              of a robust watermarking algorithm for images authentication using methods, including
+              techniques like Haar Transform, Histogram Shifting, Arnold’s Cat Map. The methods aim to
+              embed an imperceptible watermark into images, which can later be extracted to verify the
+              authenticity and integrity of the images.
+        </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+
+     <!-- Overview. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-sixths">
+        <h2 class="title is-3">Project Overview</h2>
+        <div class="content has-text-justified">
+            <p>This project demonstrates a reversible data hiding technique for image authentication. It combines Histogram Shifting with Arnold's Cat Map to embed watermarks securely without significant image degradation.</p>
+
+            <ul>
+                <li>Watermark embedding &amp; extraction through reversible data hiding.</li>
+                <li>Histogram Shifting for imperceptible watermarking.</li>
+                <li>Arnold's Cat Map scrambling for enhanced security.</li>
+                <li>Performance metrics: PSNR, SSIM, and NCC.</li>
+                <li>Resistance to common image processing attacks.</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <!--/ Overview. -->
+
+
+
+
+
+
+<!-- Methodology. -->
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <div class="content has-text-centered">
+          <h2 class="title is-3">Methodology</h2>
+            <div class="container has-text-centered">
+              <figure class="image is-3by1">
+                <img src="static/data/image.png" alt="Descriptive alt text">
+                <figcaption>2D DWT </figcaption>
+              </figure>
+            </div>
+        </div>
+        <div class="content">
+          <h3 class="title is-5">Embedding Process</h3>
+          <ol>
+            <li>Convert the image using Haar Wavelet Transform.</li>
+            <li>Divide the image into LL, HL, LH, and HH sub-bands.</li>
+            <li>Scramble the watermark with Arnold's Cat Map.</li>
+            <li>Encode the watermark with SHA-256 hashing.</li>
+            <li>Embed the scrambled watermark in the HH sub-band and the hash in the LL sub-band using Histogram Shifting.</li>
+            <li>Perform the inverse Haar Transform to reconstruct the stego image.</li>
+          </ol>
+
+          <h3 class="title is-5">Extraction Process</h3>
+          <ol>
+            <li>Apply Haar Transform to the stego image to retrieve LL and HH components.</li>
+            <li>Recover the watermark from HH and extract the SHA-256 hash from LL.</li>
+            <li>Reverse Arnold's Cat Map to obtain the original watermark.</li>
+            <li>Verify the watermark integrity using SHA-256 validation.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /Methodology. -->
+
+    <!-- Results -->
+    <section class="subtitle has-text-centered">
+       <h2 class="title is-3">Result</h2>
+    
+  
+
+      <!-- Caption -->
+      <div style="margin: 2rem 10%; font-size: 0.95rem;">
+        <h4 class="subtitle has-text-centered" style="margin-top: 1rem;">
+          <h5><strong>Results after embedding without attack on samples images from USC SIPI database</strong></h5>
+        </h4>
+       <table class="table is-striped is-fullwidth is-hoverable">
+  <thead>
+    <tr>
+      <th>Cover Image</th>
+      <th>Secret Image</th>
+      <th>PSNR</th>
+      <th>MSE</th>
+      <th>NCC</th>
+      <th>SHA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>airplane.tiff</td><td>splash.tiff</td><td>59.53416</td><td>0.072388</td><td>1</td><td>TRUE</td></tr>
+    <tr><td>Barbara.tif</td><td>splash.tiff</td><td>61.20761</td><td>0.04924</td><td>1</td><td>TRUE</td></tr>
+    <tr><td>elaine.tiff</td><td>splash.tiff</td><td>61.14979</td><td>0.0499</td><td>1</td><td>TRUE</td></tr>
+    <tr><td>fishingboat.tiff</td><td>splash.tiff</td><td>60.74799</td><td>0.054737</td><td>1</td><td>TRUE</td></tr>
+    <tr><td>Goldhill.tif</td><td>splash.tiff</td><td>61.51282</td><td>0.045898</td><td>1</td><td>TRUE</td></tr>
+    <tr><td>house.tiff</td><td>splash.tiff</td><td>60.31865</td><td>0.060425</td><td>1</td><td>TRUE</td></tr>
+    <tr><td>lena.tiff</td><td>splash.tiff</td><td>60.40253</td><td>0.059269</td><td>1</td><td>TRUE</td></tr>
+    <tr><td>peeper.tiff</td><td>splash.tiff</td><td>61.3544</td><td>0.047604</td><td>1</td><td>TRUE</td></tr>
+    <tr><td>sailboat.tiff</td><td>splash.tiff</td><td>61.06172</td><td>0.050922</td><td>1</td><td>TRUE</td></tr>
+    <tr><td>tank.tiff</td><td>splash.tiff</td><td>61.37709</td><td>0.047356</td><td>1</td><td>TRUE</td></tr>
+  </tbody>
+</table>
+
+
+      </div>
+    </section>
+    <!--/ Result. -->
+
+
+
+
+
+
+  </div>
+</section>
+
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+
+      <a class="icon-link" href="https://github.com/niladrighosh03" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
